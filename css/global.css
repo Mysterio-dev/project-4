@@ -1,0 +1,83 @@
+@media (max-width: 768px) {
+  .text {
+    font-size: calc(18px + 6.8 * ((100vw - 320px) / 1920)); } }
+
+@media (min-width: 768px) {
+  .text {
+    font-size: calc(18px + 4 * (100vw / 1920)); } }
+
+@media (max-width: 768px) {
+  .title {
+    font-size: calc(26px + 17 * ((100vw - 320px) / 1920)); } }
+
+@media (min-width: 768px) {
+  .title {
+    font-size: calc(26px + 10 * (100vw / 1920)); } }
+
+@media (max-width: 768px) {
+  .features__title {
+    font-size: calc(26px + 17 * ((100vw - 320px) / 1920)); } }
+
+@media (min-width: 768px) {
+  .features__title {
+    font-size: calc(26px + 10 * (100vw / 1920)); } }
+
+@media (max-width: 768px) {
+  .features__subtitle {
+    font-size: calc(26px + 17 * ((100vw - 320px) / 1920)); } }
+
+@media (min-width: 768px) {
+  .features__subtitle {
+    font-size: calc(26px + 10 * (100vw / 1920)); } }
+
+@media (max-width: 768px) {
+  .articles__title {
+    font-size: calc(26px + 17 * ((100vw - 320px) / 1920)); } }
+
+@media (min-width: 768px) {
+  .articles__title {
+    font-size: calc(26px + 10 * (100vw / 1920)); } }
+
+.custom-checkbox__field:checked + .custom-checkbox__content::after {
+  opacity: 1; }
+
+.custom-checkbox__field:focus + .custom-checkbox__content::before {
+  outline: 2px solid #f00;
+  outline-offset: 2px; }
+
+.custom-checkbox__field:disabled + .custom-checkbox__content {
+  opacity: 0.4;
+  pointer-events: none; }
+
+html {
+  box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
+
+html body {
+  margin: 0;
+  overflow-x: hidden;
+  min-height: 100vh;
+  max-height: 100%; }
+
+html body {
+  font-family: 'Inter', sans-serif; }
+
+img {
+  max-width: 100%; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none;
+  padding: 0; }
+
+.text {
+  font-weight: normal;
+  color: #000000; }
+
+/*# sourceMappingURL=global.css.map */
